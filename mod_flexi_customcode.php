@@ -15,6 +15,7 @@
 
 // no direct access
 defined('_JEXEC') or die('Restricted access');
+use Joomla\CMS\Helper\ModuleHelper as JModuleHelper;
 
 // Include the syndicate functions only once
 require_once (dirname(__FILE__).'/helper.php');
