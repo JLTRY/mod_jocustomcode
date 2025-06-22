@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+  <name>JO's Custom Code</name>
+	<author>JL TRYOEN/Joomla!rumahbelanja</author>
+	<creationDate>June 24, 2025</creationDate>
+	<copyright>Copyright (C) 2025 JL TRYOEN. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+  <authorEmail>jltryoen@orange.fr;rumahbelanja@gmail.com</authorEmail>
+  <authorUrl>http://www.jltryoen.fr http://appsnity.com</authorUrl>
+	<version>5.0.0</version>
+	<namespace path="src">JLTRY\Module\JOCustomCode</namespace>
+  <description>MOD_JO_CUSTOMCODE_XML_DESCRIPTION</description>
+	<files>
+		<folder module="mod_jocustomcode">services</folder>
+		<folder>src</folder>
+		<folder>services</folder>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>mod_jocustomcode.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jocustomcode.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jocustomcode.sys.ini</language>
+	</languages>
+    <updateservers>
+       <server type="extension" priority="1" name="Attachments Updates">https://raw.githubusercontent.com/JLTRY/mod_jocustomcode/master/mod_jocustomcode-update.xml</server>
+    </updateservers>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="code_area" filter="raw" type="textarea" default="" label="MOD_JO_CUSTOMCODE_CODE" cols="40" rows="20" description="MOD_JO_CUSTOMCODE_CODEDESC" />
+				<field name="use_php" type="radio" class="btn-group btn-group-yesno" default="1" label="MOD_JO_CUSTOMCODE_USEPHP" description="MOD_JO_CUSTOMCODE_USEPHPDESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="userlevel" type="list" default="1" label="MOD_JO_CUSTOMCODE_SHOWTO" description="MOD_JO_CUSTOMCODE_SHOWTODESC" >
+					<option value="0">MOD_JO_CUSTOMCODE_REGISTERED</option>
+					<option value="1">MOD_JO_CUSTOMCODE_ALL</option>
+					<option value="2">MOD_JO_CUSTOMCODE_GUEST</option>
+				</field>
+				<field name="clean_js" type="radio" class="btn-group btn-group-yesno" default="1" label="MOD_JO_CUSTOMCODE_CLEANJS" description="MOD_JO_CUSTOMCODE_CLEANJSDESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="clean_css" type="radio" class="btn-group btn-group-yesno" default="1" label="MOD_JO_CUSTOMCODE_CLEANCSS" description="MOD_JO_CUSTOMCODE_CLEANCSSDESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="clean_all" type="radio" class="btn-group btn-group-yesno" default="1" label="MOD_JO_CUSTOMCODE_CLEANHTML" description="MOD_JO_CUSTOMCODE_CLEANHTMLDESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+			<fieldset name="additional" label="MOD_JO_CUSTOMCODE_ADDITIONAL_LABEL">
+				<field name="load_plugincontent" type="radio" class="btn-group btn-group-yesno" default="0" label="MOD_JO_CUSTOMCODE_LOAD_PLUGIN_CONTENT" description="MOD_JO_CUSTOMCODE_LOAD_PLUGIN_CONTENT_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+			<fieldset
+				name="advanced">
+
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="radio" class="btn-group btn-group-yesno"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
