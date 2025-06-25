@@ -7,7 +7,7 @@
 # Copyright (C) 2010 www.joomlahill.com. All Rights Reserved.
 # Copyright (C) 2025 www.jltryoen.fr All Rights Reserved.
 # @license  http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
-# Websites: http://www.jltryoen.fr 
+# Websites: http://www.jltryoen.fr
 -------------------------------------------------------------------------*/
 
 \defined('_JEXEC') or die;
@@ -35,10 +35,12 @@ return new class () implements ServiceProviderInterface {
      */
     public function register(Container $container)
     {
-        $container->registerServiceProvider(new ModuleDispatcherFactoryServiceProvider('\\JLTRY\\Module\\JOCustomCode'));
-        $container->registerServiceProvider(new HelperFactoryServiceProvider('\\JLTRY\\Module\\JOCustomCode\\Site\\Helper'));
+        $container->registerServiceProvider(
+            new ModuleDispatcherFactoryServiceProvider('\\JLTRY\\Module\\JOCustomCode')
+        );
+        $container->registerServiceProvider(
+            new HelperFactoryServiceProvider('\\JLTRY\\Module\\JOCustomCode\\Site\\Helper')
+        );
         $container->registerServiceProvider(new ModuleServiceProvider());
     }
 };
-
-?>
