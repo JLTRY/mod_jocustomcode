@@ -6,10 +6,10 @@
 		<element>mod_jocustomcode</element>
 		<type>module</type>
 		<client>site</client>
-		<version>5.0.1</version>
-		<infourl title="JOFavCats">http://www.jltryoen.fr</infourl>
+		<version>5.0.2</version>
+		<infourl title="JO Custom Code">http://www.jltryoen.fr</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/JLTRY/mod_jofavcats/releases/download/v5.0.1/mod_jocustomcode-5.0.1.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/JLTRY/mod_jocustomcode/releases/download/v5.0.2/mod_jocustomcode-5.0.2.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>Stable</tag>
@@ -17,10 +17,10 @@
 		<maintainer>JL TRYOEN</maintainer>
 		<maintainerurl>http://www.jltryoen.fr</maintainerurl>
 		<php_minimum>8.0</php_minimum>
-		<targetplatform name="joomla" version="(4\.[01234]|5\.[0123])"/>
-		<sha256>587EE9E4FDEAB606BEA0EFF6E383605EDE9EBB288A0C6204E28606BF593E9B32</sha256>
-		<sha384>6311FD83C1BEF15D828E562EBBCEF84BBBA801CDB2DAA904C1FB0EDA88B6F4232EE7A88D27CB2A1FE5F9E98E197FFC67</sha384>
-		<sha512>117FD7D326D91E30D8CAD0D303E0C5A091948837AF3C279363BB166622873365E8678FB8AA2BB4B85C52931E467AD3E0EC6552B5B4ACA61F85651627BE3BF408</sha512>
+		<targetplatform name="joomla" version="(4\.[01234]|5\.[01234])"/>
+		<sha256>8B1BEC508D82A1D513E039860CE715D506E724B1B483C5B9F07B558E8592BE04</sha256>
+		<sha384>12E478D510274782DBEFD3D6177EF85F2B27605FE7CEDEE0C244ACB0289FBD017EB44D2C603957D109B9428F82FA5AB0</sha384>
+		<sha512>8A0BFA40E481A4CDCB2C0D8077868DBD5E6660270E93CBE647AAEF5B51585123A834EE4DD3E280C095A6A9345F488E535620D8BC571A6F99FAD72D844E315955</sha512>
 	</update>
 </updates>
 

@@ -1,4 +1,4 @@
-VERSION = "5.0.1"
+VERSION = "5.0.2"
 VERSION2 = $(shell echo $(VERSION)|sed 's/ /-/g')
 PACKAGE = mod_jocustomcode
 ZIPFILE = $(PACKAGE)-$(VERSION2).zip
