@@ -4,16 +4,16 @@
 	version="3.1"
 	client="site"
 	method="upgrade">
-  <name>JO's Custom Code</name>
+	<name>JO's Custom Code</name>
 	<author>JL TRYOEN/Joomla!rumahbelanja</author>
 	<creationDate>October  3, 2025</creationDate>
 	<copyright>Copyright (C) 2025 JL TRYOEN. All rights reserved.</copyright>
-    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-  <authorEmail>jltryoen@orange.fr;rumahbelanja@gmail.com</authorEmail>
-  <authorUrl>http://www.jltryoen.fr http://appsnity.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>jltryoen@orange.fr;rumahbelanja@gmail.com</authorEmail>
+	<authorUrl>http://www.jltryoen.fr http://appsnity.com</authorUrl>
 	<version>5.0.2</version>
 	<namespace path="src">JLTRY\Module\JOCustomCode</namespace>
-  <description>MOD_JO_CUSTOMCODE_XML_DESCRIPTION</description>
+	<description>MOD_JO_CUSTOMCODE_XML_DESCRIPTION</description>
 	<files>
 		<folder module="mod_jocustomcode">services</folder>
 		<folder>src</folder>
@@ -26,9 +26,9 @@
 		<language tag="en-GB">language/en-GB/en-GB.mod_jocustomcode.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.mod_jocustomcode.sys.ini</language>
 	</languages>
-    <updateservers>
-       <server type="extension" priority="1" name="JO's Custom Code updates">https://raw.githubusercontent.com/JLTRY/mod_jocustomcode/master/mod_jocustomcode-update.xml</server>
-    </updateservers>
+	<updateservers>
+		<server type="extension" priority="1" name="JO's Custom Code updates">https://raw.githubusercontent.com/JLTRY/mod_jocustomcode/master/mod_jocustomcode-update.xml</server>
+	</updateservers>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
