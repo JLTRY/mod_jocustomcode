@@ -6,10 +6,10 @@
 		<element>mod_jocustomcode</element>
 		<type>module</type>
 		<client>site</client>
-		<version>5.0.2</version>
+		<version>5.0.3</version>
 		<infourl title="JO Custom Code">http://www.jltryoen.fr</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/JLTRY/mod_jocustomcode/releases/download/v5.0.2/mod_jocustomcode-5.0.2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/JLTRY/mod_jocustomcode/releases/download/v5.0.3/mod_jocustomcode-5.0.3.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>Stable</tag>
@@ -18,9 +18,9 @@
 		<maintainerurl>http://www.jltryoen.fr</maintainerurl>
 		<php_minimum>8.0</php_minimum>
 		<targetplatform name="joomla" version="(4\.[01234]|5\.[01234]|6\.[0])"/>
-		<sha256>8B1BEC508D82A1D513E039860CE715D506E724B1B483C5B9F07B558E8592BE04</sha256>
-		<sha384>12E478D510274782DBEFD3D6177EF85F2B27605FE7CEDEE0C244ACB0289FBD017EB44D2C603957D109B9428F82FA5AB0</sha384>
-		<sha512>8A0BFA40E481A4CDCB2C0D8077868DBD5E6660270E93CBE647AAEF5B51585123A834EE4DD3E280C095A6A9345F488E535620D8BC571A6F99FAD72D844E315955</sha512>
+		<sha256>036B70FFE0CE960428A11C4330CD3BCF2F25685DA6565842558F08CB1968650F</sha256>
+		<sha384>20C4972591FE9A0482921D1129D8A44D1780DF0C564761E7EE77A8B288938ACDBDAFFAAB0DE2820C0CE9A14C09D0EAE8</sha384>
+		<sha512>8192FC79B2BCDF37B755AFBA5ABEC939A8BA84F876F34C7D6709810186C44AA3A38B9550ACF4779A7497B5BB4494BA27F6FAFAEED8EFC7B53601287440E0815A</sha512>
 	</update>
 </updates>
 

@@ -11,7 +11,7 @@
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<authorEmail>jltryoen@orange.fr;rumahbelanja@gmail.com</authorEmail>
 	<authorUrl>http://www.jltryoen.fr http://appsnity.com</authorUrl>
-	<version>5.0.2</version>
+	<version>5.0.3</version>
 	<namespace path="src">JLTRY\Module\JOCustomCode</namespace>
 	<description>MOD_JO_CUSTOMCODE_XML_DESCRIPTION</description>
 	<files>
