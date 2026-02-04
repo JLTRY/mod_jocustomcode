@@ -4,7 +4,6 @@ PACKAGE = mod_jocustomcode
 ZIPFILE = $(PACKAGE)-$(VERSION2).zip
 UPDATEFILE = $(PACKAGE)-update.xml
 ROOT = $(shell pwd)
-PACKAGES = $(ROOT)/packages
 
 
 .PHONY: $(ZIPFILE)
